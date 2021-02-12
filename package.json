@@ -1,0 +1,33 @@
+{
+  "name": "malinovsky.tech",
+  "version": "0.0.1",
+  "description": "Site portfolio",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack serve --mode development --open",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miro00/malinovsky.tech.git"
+  },
+  "author": "Alexander Malinovsky",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/miro00/malinovsky.tech/issues"
+  },
+  "homepage": "https://github.com/miro00/malinovsky.tech#readme",
+  "devDependencies": {
+    "@babel/core": "^7.12.16",
+    "@babel/preset-env": "^7.12.16",
+    "babel-loader": "^8.2.2",
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^5.0.2",
+    "html-webpack-plugin": "^5.0.0",
+    "node-sass": "^5.0.0",
+    "sass-loader": "^11.0.1",
+    "webpack": "^5.21.2",
+    "webpack-cli": "^4.5.0",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
