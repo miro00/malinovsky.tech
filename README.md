@@ -1,1 +1,1 @@
-# miro00.github.io
+# [malinovsky.tech](http://malinovsky.tech/)
